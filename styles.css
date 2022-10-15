@@ -172,7 +172,7 @@ hr{
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        max-width: 60%;
+        max-width: 40%;
         height: fit-content;
         margin: 0 2rem 0 2rem;
         width: fit-content;
@@ -180,7 +180,7 @@ hr{
         background-image: url("./images/bg-pattern-desktop.svg");
         background-repeat:no-repeat;
         background-size: 90%;
-        background-position: -420% 70%;
+        background-position: -450% 70%;
     }
 
     .image::before{
@@ -191,7 +191,7 @@ hr{
         left:0;
         right:0;
         z-index: 1;
-        transform: translate(-30%, 50%);
+        transform: translate(-27%, 50%);
         background-image: url("./images/illustration-box-desktop.svg");
         background-repeat: no-repeat;
     }
@@ -208,6 +208,9 @@ hr{
     margin:0;
     min-width: 50%;
     transform: translate(0%, 0%);
+    display:flex;
+    justify-content:center;
+    align-items: center;
     }
 
 
